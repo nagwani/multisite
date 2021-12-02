@@ -1,0 +1,13 @@
+dev:
+  root: /var/www/html/eemmadison.dev/docroot
+  ac-site: eemmadison
+  ac-env: dev
+  ac-realm: prod
+  uri: eemmadisondev.prod.acquia-sites.com
+  dev.livedev:
+    parent: '@eemmadison.dev'
+    root: /mnt/gfs/eemmadison.dev/livedev/docroot
+  host: eemmadisondev.ssh.prod.acquia-sites.com
+  user: eemmadison.dev
+  paths:
+    drush-script: drush9
